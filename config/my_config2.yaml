@@ -1,0 +1,76 @@
+# -----------------------------------------------------------------------------
+# 自定义单国家/多国家电力模拟配置 (Warming Scenario Test)
+# -----------------------------------------------------------------------------
+
+version: v2025.04.0
+tutorial: false
+
+run:
+  # prefix: ""
+  # name: "" 
+  scenarios:
+    enable: true      
+    file: /home/mengyu/projects/pypsa-eur/config/scenario2.yaml
+
+countries: ['AL', 'AT', 'BA', 'BE', 'BG', 'CH', 'CZ', 'DE', 'DK', 'EE', 'ES', 'FI', 'FR', 'GB', 'GR', 'HR', 'HU', 'IE', 'IT', 'LT', 'LU', 'LV', 'ME', 'MK', 'NL', 'NO', 'PL', 'PT', 'RO', 'RS', 'SE', 'SI', 'SK']
+snapshots:
+  start: "2015-01-01 00:00"
+  end: "2015-01-31 23:00" # 确保和你的 load 数据行数一致 (744h)
+  inclusive: 'left'
+
+load:
+  prebuilt: true          
+  custom_path: "resources/electricity_demand.csv" 
+
+
+electricity:
+  voltages: [110., 132., 150., 220., 300., 330., 380., 400., 500., 750.] # 包含全电压
+  renewable_carriers: [solar, onwind, offwind-ac, offwind-dc] # 无 hydro
+  conventional_carriers: [nuclear, OCGT, CCGT, coal]
+  extendable_carriers: # 只做调度，不扩建
+    Generator: []
+    StorageUnit: []
+    Store: []
+    Link: []
+
+
+sector:
+  heating: false
+  transport: false
+  industry: false
+  gas_network: false
+  agriculture: false
+  biomass: false
+  shipping: false
+  aviation: false
+  fossil_fuels: false
+
+scenario:
+  clusters: [128]
+  planning_horizons: [2015]
+  opts: [""]
+  sector_opts: [""]
+
+data:
+  cutout:
+    source: build
+
+enable:
+  retrieve: false
+  build_cutout: false
+  build_load: false
+
+atlite:
+  nprocesses: 4
+  show_progress: true
+  default_cutout: my-hybrid-2015 
+  cutouts:
+    my-hybrid-2015: 
+      module: era5
+      x: [-22., 45.]
+      y: [33., 72.]
+      dx: 0.5
+      dy: 0.5
+      # 仅下载一月份，确保不会因为文件过大再次触发磁盘配额报错
+      time: ['2015-01', '2015-01']
+      

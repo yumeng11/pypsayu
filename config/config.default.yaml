@@ -23,8 +23,8 @@ run:
   prefix: ""
   name: ""
   scenarios:
-    enable: false
-    file: config/scenarios.yaml
+    enable: true
+    file: /home/mengyu/projects/pypsa-eur/config/scenario.yaml
   disable_progressbar: false
   shared_resources:
     policy: false

@@ -4,4 +4,9 @@
 
 # See https://snakemake.readthedocs.io/en/stable/executing/cli.html#profiles
 
-logger: pypsa
+# logger: pypsa
+
+cores: 1
+jobs: 1
+keep-going: True
+rerun-incomplete: True

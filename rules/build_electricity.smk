@@ -191,6 +191,8 @@ rule build_shapes:
         scripts("build_shapes.py")
 
 
+from pathlib import Path
+CUTOUT_DATASET["folder"] = Path(CUTOUT_DATASET.get("folder", "data/cutouts"))
 if CUTOUT_DATASET["source"] in ["build"]:
 
     rule build_cutout:

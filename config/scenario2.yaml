@@ -1,0 +1,32 @@
+weather_year_2015:
+  snapshots:
+    start: "2015-01-01 00:00"
+    end: "2015-01-31 23:00"
+    inclusive: "left"
+  
+  atlite:
+    default_cutout: my-hybrid-2015
+    cutouts:
+      my-hybrid-2015:
+        module: era5
+        x: [-22., 45.]
+        y: [33., 72.]
+        dx: 0.5
+        dy: 0.5
+        time: ['2015-01', '2015-01']
+    
+  renewable:
+    onwind:
+      cutout: my-hybrid-2015
+    offwind-ac:
+      cutout: my-hybrid-2015
+    offwind-dc:
+      cutout: my-hybrid-2015
+    solar:
+      cutout: europe-era5-2015
+  
+  # solar_thermal:
+  #   cutout: europe-era5-2015
+  
+  # sector:
+  #   heat_demand_cutout: europe-era5-2015  

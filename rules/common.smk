@@ -127,7 +127,8 @@ def dataset_version(
 
     # To use PyPSA-Eur as a snakemake module, the path to the versions.csv file needs to be
     # registered relative to the current file with Snakemake:
-    fp = workflow.source_path("../data/versions.csv")
+    # fp = workflow.source_path("../data/versions.csv")
+    fp = "/gpfs1/schlecker/home/mengyu/projects/pypsa-eur/data/versions.csv"
     data_versions = load_data_versions(fp)
 
     dataset = data_versions.loc[
