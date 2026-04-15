@@ -1,0 +1,1620 @@
+warming2_S0_2015:
+  atlite:
+    default_cutout: my-hybrid-warming2-2015
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S0_warming2.csv
+  snapshots:
+    end: 2015-12-31 23:00
+    inclusive: left
+    start: 2015-01-01 00:00
+warming2_S0_2016:
+  atlite:
+    default_cutout: my-hybrid-warming2-2016
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S0_warming2.csv
+  snapshots:
+    end: 2016-12-31 23:00
+    inclusive: left
+    start: 2016-01-01 00:00
+warming2_S0_2017:
+  atlite:
+    default_cutout: my-hybrid-warming2-2017
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S0_warming2.csv
+  snapshots:
+    end: 2017-12-31 23:00
+    inclusive: left
+    start: 2017-01-01 00:00
+warming2_S0_2018:
+  atlite:
+    default_cutout: my-hybrid-warming2-2018
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S0_warming2.csv
+  snapshots:
+    end: 2018-12-31 23:00
+    inclusive: left
+    start: 2018-01-01 00:00
+warming2_S0_2019:
+  atlite:
+    default_cutout: my-hybrid-warming2-2019
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S0_warming2.csv
+  snapshots:
+    end: 2019-12-31 23:00
+    inclusive: left
+    start: 2019-01-01 00:00
+warming2_S0_2020:
+  atlite:
+    default_cutout: my-hybrid-warming2-2020
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S0_warming2.csv
+  snapshots:
+    end: 2020-12-31 23:00
+    inclusive: left
+    start: 2020-01-01 00:00
+warming2_S0_2021:
+  atlite:
+    default_cutout: my-hybrid-warming2-2021
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S0_warming2.csv
+  snapshots:
+    end: 2021-12-31 23:00
+    inclusive: left
+    start: 2021-01-01 00:00
+warming2_S0_2022:
+  atlite:
+    default_cutout: my-hybrid-warming2-2022
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S0_warming2.csv
+  snapshots:
+    end: 2022-12-31 23:00
+    inclusive: left
+    start: 2022-01-01 00:00
+warming2_S0_2023:
+  atlite:
+    default_cutout: my-hybrid-warming2-2023
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S0_warming2.csv
+  snapshots:
+    end: 2023-12-31 23:00
+    inclusive: left
+    start: 2023-01-01 00:00
+warming2_S0_2024:
+  atlite:
+    default_cutout: my-hybrid-warming2-2024
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S0_warming2.csv
+  snapshots:
+    end: 2024-12-31 23:00
+    inclusive: left
+    start: 2024-01-01 00:00
+warming2_S1_2015:
+  atlite:
+    default_cutout: my-hybrid-warming2-2015
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S1_warming2.csv
+  snapshots:
+    end: 2015-12-31 23:00
+    inclusive: left
+    start: 2015-01-01 00:00
+warming2_S1_2016:
+  atlite:
+    default_cutout: my-hybrid-warming2-2016
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S1_warming2.csv
+  snapshots:
+    end: 2016-12-31 23:00
+    inclusive: left
+    start: 2016-01-01 00:00
+warming2_S1_2017:
+  atlite:
+    default_cutout: my-hybrid-warming2-2017
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S1_warming2.csv
+  snapshots:
+    end: 2017-12-31 23:00
+    inclusive: left
+    start: 2017-01-01 00:00
+warming2_S1_2018:
+  atlite:
+    default_cutout: my-hybrid-warming2-2018
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S1_warming2.csv
+  snapshots:
+    end: 2018-12-31 23:00
+    inclusive: left
+    start: 2018-01-01 00:00
+warming2_S1_2019:
+  atlite:
+    default_cutout: my-hybrid-warming2-2019
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S1_warming2.csv
+  snapshots:
+    end: 2019-12-31 23:00
+    inclusive: left
+    start: 2019-01-01 00:00
+warming2_S1_2020:
+  atlite:
+    default_cutout: my-hybrid-warming2-2020
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S1_warming2.csv
+  snapshots:
+    end: 2020-12-31 23:00
+    inclusive: left
+    start: 2020-01-01 00:00
+warming2_S1_2021:
+  atlite:
+    default_cutout: my-hybrid-warming2-2021
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S1_warming2.csv
+  snapshots:
+    end: 2021-12-31 23:00
+    inclusive: left
+    start: 2021-01-01 00:00
+warming2_S1_2022:
+  atlite:
+    default_cutout: my-hybrid-warming2-2022
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S1_warming2.csv
+  snapshots:
+    end: 2022-12-31 23:00
+    inclusive: left
+    start: 2022-01-01 00:00
+warming2_S1_2023:
+  atlite:
+    default_cutout: my-hybrid-warming2-2023
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S1_warming2.csv
+  snapshots:
+    end: 2023-12-31 23:00
+    inclusive: left
+    start: 2023-01-01 00:00
+warming2_S1_2024:
+  atlite:
+    default_cutout: my-hybrid-warming2-2024
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S1_warming2.csv
+  snapshots:
+    end: 2024-12-31 23:00
+    inclusive: left
+    start: 2024-01-01 00:00
+warming2_S2_2015:
+  atlite:
+    default_cutout: my-hybrid-warming2-2015
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S2_warming2.csv
+  snapshots:
+    end: 2015-12-31 23:00
+    inclusive: left
+    start: 2015-01-01 00:00
+warming2_S2_2016:
+  atlite:
+    default_cutout: my-hybrid-warming2-2016
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S2_warming2.csv
+  snapshots:
+    end: 2016-12-31 23:00
+    inclusive: left
+    start: 2016-01-01 00:00
+warming2_S2_2017:
+  atlite:
+    default_cutout: my-hybrid-warming2-2017
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S2_warming2.csv
+  snapshots:
+    end: 2017-12-31 23:00
+    inclusive: left
+    start: 2017-01-01 00:00
+warming2_S2_2018:
+  atlite:
+    default_cutout: my-hybrid-warming2-2018
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S2_warming2.csv
+  snapshots:
+    end: 2018-12-31 23:00
+    inclusive: left
+    start: 2018-01-01 00:00
+warming2_S2_2019:
+  atlite:
+    default_cutout: my-hybrid-warming2-2019
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S2_warming2.csv
+  snapshots:
+    end: 2019-12-31 23:00
+    inclusive: left
+    start: 2019-01-01 00:00
+warming2_S2_2020:
+  atlite:
+    default_cutout: my-hybrid-warming2-2020
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S2_warming2.csv
+  snapshots:
+    end: 2020-12-31 23:00
+    inclusive: left
+    start: 2020-01-01 00:00
+warming2_S2_2021:
+  atlite:
+    default_cutout: my-hybrid-warming2-2021
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S2_warming2.csv
+  snapshots:
+    end: 2021-12-31 23:00
+    inclusive: left
+    start: 2021-01-01 00:00
+warming2_S2_2022:
+  atlite:
+    default_cutout: my-hybrid-warming2-2022
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S2_warming2.csv
+  snapshots:
+    end: 2022-12-31 23:00
+    inclusive: left
+    start: 2022-01-01 00:00
+warming2_S2_2023:
+  atlite:
+    default_cutout: my-hybrid-warming2-2023
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S2_warming2.csv
+  snapshots:
+    end: 2023-12-31 23:00
+    inclusive: left
+    start: 2023-01-01 00:00
+warming2_S2_2024:
+  atlite:
+    default_cutout: my-hybrid-warming2-2024
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S2_warming2.csv
+  snapshots:
+    end: 2024-12-31 23:00
+    inclusive: left
+    start: 2024-01-01 00:00
+warming2_S3_2015:
+  atlite:
+    default_cutout: my-hybrid-warming2-2015
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S3_warming2.csv
+  snapshots:
+    end: 2015-12-31 23:00
+    inclusive: left
+    start: 2015-01-01 00:00
+warming2_S3_2016:
+  atlite:
+    default_cutout: my-hybrid-warming2-2016
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S3_warming2.csv
+  snapshots:
+    end: 2016-12-31 23:00
+    inclusive: left
+    start: 2016-01-01 00:00
+warming2_S3_2017:
+  atlite:
+    default_cutout: my-hybrid-warming2-2017
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S3_warming2.csv
+  snapshots:
+    end: 2017-12-31 23:00
+    inclusive: left
+    start: 2017-01-01 00:00
+warming2_S3_2018:
+  atlite:
+    default_cutout: my-hybrid-warming2-2018
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S3_warming2.csv
+  snapshots:
+    end: 2018-12-31 23:00
+    inclusive: left
+    start: 2018-01-01 00:00
+warming2_S3_2019:
+  atlite:
+    default_cutout: my-hybrid-warming2-2019
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S3_warming2.csv
+  snapshots:
+    end: 2019-12-31 23:00
+    inclusive: left
+    start: 2019-01-01 00:00
+warming2_S3_2020:
+  atlite:
+    default_cutout: my-hybrid-warming2-2020
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S3_warming2.csv
+  snapshots:
+    end: 2020-12-31 23:00
+    inclusive: left
+    start: 2020-01-01 00:00
+warming2_S3_2021:
+  atlite:
+    default_cutout: my-hybrid-warming2-2021
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S3_warming2.csv
+  snapshots:
+    end: 2021-12-31 23:00
+    inclusive: left
+    start: 2021-01-01 00:00
+warming2_S3_2022:
+  atlite:
+    default_cutout: my-hybrid-warming2-2022
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S3_warming2.csv
+  snapshots:
+    end: 2022-12-31 23:00
+    inclusive: left
+    start: 2022-01-01 00:00
+warming2_S3_2023:
+  atlite:
+    default_cutout: my-hybrid-warming2-2023
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S3_warming2.csv
+  snapshots:
+    end: 2023-12-31 23:00
+    inclusive: left
+    start: 2023-01-01 00:00
+warming2_S3_2024:
+  atlite:
+    default_cutout: my-hybrid-warming2-2024
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S3_warming2.csv
+  snapshots:
+    end: 2024-12-31 23:00
+    inclusive: left
+    start: 2024-01-01 00:00
+warming2_S4_2015:
+  atlite:
+    default_cutout: my-hybrid-warming2-2015
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S4_warming2.csv
+  snapshots:
+    end: 2015-12-31 23:00
+    inclusive: left
+    start: 2015-01-01 00:00
+warming2_S4_2016:
+  atlite:
+    default_cutout: my-hybrid-warming2-2016
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S4_warming2.csv
+  snapshots:
+    end: 2016-12-31 23:00
+    inclusive: left
+    start: 2016-01-01 00:00
+warming2_S4_2017:
+  atlite:
+    default_cutout: my-hybrid-warming2-2017
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S4_warming2.csv
+  snapshots:
+    end: 2017-12-31 23:00
+    inclusive: left
+    start: 2017-01-01 00:00
+warming2_S4_2018:
+  atlite:
+    default_cutout: my-hybrid-warming2-2018
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S4_warming2.csv
+  snapshots:
+    end: 2018-12-31 23:00
+    inclusive: left
+    start: 2018-01-01 00:00
+warming2_S4_2019:
+  atlite:
+    default_cutout: my-hybrid-warming2-2019
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S4_warming2.csv
+  snapshots:
+    end: 2019-12-31 23:00
+    inclusive: left
+    start: 2019-01-01 00:00
+warming2_S4_2020:
+  atlite:
+    default_cutout: my-hybrid-warming2-2020
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S4_warming2.csv
+  snapshots:
+    end: 2020-12-31 23:00
+    inclusive: left
+    start: 2020-01-01 00:00
+warming2_S4_2021:
+  atlite:
+    default_cutout: my-hybrid-warming2-2021
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S4_warming2.csv
+  snapshots:
+    end: 2021-12-31 23:00
+    inclusive: left
+    start: 2021-01-01 00:00
+warming2_S4_2022:
+  atlite:
+    default_cutout: my-hybrid-warming2-2022
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S4_warming2.csv
+  snapshots:
+    end: 2022-12-31 23:00
+    inclusive: left
+    start: 2022-01-01 00:00
+warming2_S4_2023:
+  atlite:
+    default_cutout: my-hybrid-warming2-2023
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S4_warming2.csv
+  snapshots:
+    end: 2023-12-31 23:00
+    inclusive: left
+    start: 2023-01-01 00:00
+warming2_S4_2024:
+  atlite:
+    default_cutout: my-hybrid-warming2-2024
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S4_warming2.csv
+  snapshots:
+    end: 2024-12-31 23:00
+    inclusive: left
+    start: 2024-01-01 00:00
+warming2_S5_2015:
+  atlite:
+    default_cutout: my-hybrid-warming2-2015
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S5_warming2.csv
+  snapshots:
+    end: 2015-12-31 23:00
+    inclusive: left
+    start: 2015-01-01 00:00
+warming2_S5_2016:
+  atlite:
+    default_cutout: my-hybrid-warming2-2016
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S5_warming2.csv
+  snapshots:
+    end: 2016-12-31 23:00
+    inclusive: left
+    start: 2016-01-01 00:00
+warming2_S5_2017:
+  atlite:
+    default_cutout: my-hybrid-warming2-2017
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S5_warming2.csv
+  snapshots:
+    end: 2017-12-31 23:00
+    inclusive: left
+    start: 2017-01-01 00:00
+warming2_S5_2018:
+  atlite:
+    default_cutout: my-hybrid-warming2-2018
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S5_warming2.csv
+  snapshots:
+    end: 2018-12-31 23:00
+    inclusive: left
+    start: 2018-01-01 00:00
+warming2_S5_2019:
+  atlite:
+    default_cutout: my-hybrid-warming2-2019
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S5_warming2.csv
+  snapshots:
+    end: 2019-12-31 23:00
+    inclusive: left
+    start: 2019-01-01 00:00
+warming2_S5_2020:
+  atlite:
+    default_cutout: my-hybrid-warming2-2020
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S5_warming2.csv
+  snapshots:
+    end: 2020-12-31 23:00
+    inclusive: left
+    start: 2020-01-01 00:00
+warming2_S5_2021:
+  atlite:
+    default_cutout: my-hybrid-warming2-2021
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S5_warming2.csv
+  snapshots:
+    end: 2021-12-31 23:00
+    inclusive: left
+    start: 2021-01-01 00:00
+warming2_S5_2022:
+  atlite:
+    default_cutout: my-hybrid-warming2-2022
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S5_warming2.csv
+  snapshots:
+    end: 2022-12-31 23:00
+    inclusive: left
+    start: 2022-01-01 00:00
+warming2_S5_2023:
+  atlite:
+    default_cutout: my-hybrid-warming2-2023
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S5_warming2.csv
+  snapshots:
+    end: 2023-12-31 23:00
+    inclusive: left
+    start: 2023-01-01 00:00
+warming2_S5_2024:
+  atlite:
+    default_cutout: my-hybrid-warming2-2024
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming2/mme_results/load_S5_warming2.csv
+  snapshots:
+    end: 2024-12-31 23:00
+    inclusive: left
+    start: 2024-01-01 00:00
+warming3_S0_2015:
+  atlite:
+    default_cutout: my-hybrid-warming3-2015
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S0_warming3.csv
+  snapshots:
+    end: 2015-12-31 23:00
+    inclusive: left
+    start: 2015-01-01 00:00
+warming3_S0_2016:
+  atlite:
+    default_cutout: my-hybrid-warming3-2016
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S0_warming3.csv
+  snapshots:
+    end: 2016-12-31 23:00
+    inclusive: left
+    start: 2016-01-01 00:00
+warming3_S0_2017:
+  atlite:
+    default_cutout: my-hybrid-warming3-2017
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S0_warming3.csv
+  snapshots:
+    end: 2017-12-31 23:00
+    inclusive: left
+    start: 2017-01-01 00:00
+warming3_S0_2018:
+  atlite:
+    default_cutout: my-hybrid-warming3-2018
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S0_warming3.csv
+  snapshots:
+    end: 2018-12-31 23:00
+    inclusive: left
+    start: 2018-01-01 00:00
+warming3_S0_2019:
+  atlite:
+    default_cutout: my-hybrid-warming3-2019
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S0_warming3.csv
+  snapshots:
+    end: 2019-12-31 23:00
+    inclusive: left
+    start: 2019-01-01 00:00
+warming3_S0_2020:
+  atlite:
+    default_cutout: my-hybrid-warming3-2020
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S0_warming3.csv
+  snapshots:
+    end: 2020-12-31 23:00
+    inclusive: left
+    start: 2020-01-01 00:00
+warming3_S0_2021:
+  atlite:
+    default_cutout: my-hybrid-warming3-2021
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S0_warming3.csv
+  snapshots:
+    end: 2021-12-31 23:00
+    inclusive: left
+    start: 2021-01-01 00:00
+warming3_S0_2022:
+  atlite:
+    default_cutout: my-hybrid-warming3-2022
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S0_warming3.csv
+  snapshots:
+    end: 2022-12-31 23:00
+    inclusive: left
+    start: 2022-01-01 00:00
+warming3_S0_2023:
+  atlite:
+    default_cutout: my-hybrid-warming3-2023
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S0_warming3.csv
+  snapshots:
+    end: 2023-12-31 23:00
+    inclusive: left
+    start: 2023-01-01 00:00
+warming3_S0_2024:
+  atlite:
+    default_cutout: my-hybrid-warming3-2024
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S0_warming3.csv
+  snapshots:
+    end: 2024-12-31 23:00
+    inclusive: left
+    start: 2024-01-01 00:00
+warming3_S1_2015:
+  atlite:
+    default_cutout: my-hybrid-warming3-2015
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S1_warming3.csv
+  snapshots:
+    end: 2015-12-31 23:00
+    inclusive: left
+    start: 2015-01-01 00:00
+warming3_S1_2016:
+  atlite:
+    default_cutout: my-hybrid-warming3-2016
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S1_warming3.csv
+  snapshots:
+    end: 2016-12-31 23:00
+    inclusive: left
+    start: 2016-01-01 00:00
+warming3_S1_2017:
+  atlite:
+    default_cutout: my-hybrid-warming3-2017
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S1_warming3.csv
+  snapshots:
+    end: 2017-12-31 23:00
+    inclusive: left
+    start: 2017-01-01 00:00
+warming3_S1_2018:
+  atlite:
+    default_cutout: my-hybrid-warming3-2018
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S1_warming3.csv
+  snapshots:
+    end: 2018-12-31 23:00
+    inclusive: left
+    start: 2018-01-01 00:00
+warming3_S1_2019:
+  atlite:
+    default_cutout: my-hybrid-warming3-2019
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S1_warming3.csv
+  snapshots:
+    end: 2019-12-31 23:00
+    inclusive: left
+    start: 2019-01-01 00:00
+warming3_S1_2020:
+  atlite:
+    default_cutout: my-hybrid-warming3-2020
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S1_warming3.csv
+  snapshots:
+    end: 2020-12-31 23:00
+    inclusive: left
+    start: 2020-01-01 00:00
+warming3_S1_2021:
+  atlite:
+    default_cutout: my-hybrid-warming3-2021
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S1_warming3.csv
+  snapshots:
+    end: 2021-12-31 23:00
+    inclusive: left
+    start: 2021-01-01 00:00
+warming3_S1_2022:
+  atlite:
+    default_cutout: my-hybrid-warming3-2022
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S1_warming3.csv
+  snapshots:
+    end: 2022-12-31 23:00
+    inclusive: left
+    start: 2022-01-01 00:00
+warming3_S1_2023:
+  atlite:
+    default_cutout: my-hybrid-warming3-2023
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S1_warming3.csv
+  snapshots:
+    end: 2023-12-31 23:00
+    inclusive: left
+    start: 2023-01-01 00:00
+warming3_S1_2024:
+  atlite:
+    default_cutout: my-hybrid-warming3-2024
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S1_warming3.csv
+  snapshots:
+    end: 2024-12-31 23:00
+    inclusive: left
+    start: 2024-01-01 00:00
+warming3_S2_2015:
+  atlite:
+    default_cutout: my-hybrid-warming3-2015
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S2_warming3.csv
+  snapshots:
+    end: 2015-12-31 23:00
+    inclusive: left
+    start: 2015-01-01 00:00
+warming3_S2_2016:
+  atlite:
+    default_cutout: my-hybrid-warming3-2016
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S2_warming3.csv
+  snapshots:
+    end: 2016-12-31 23:00
+    inclusive: left
+    start: 2016-01-01 00:00
+warming3_S2_2017:
+  atlite:
+    default_cutout: my-hybrid-warming3-2017
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S2_warming3.csv
+  snapshots:
+    end: 2017-12-31 23:00
+    inclusive: left
+    start: 2017-01-01 00:00
+warming3_S2_2018:
+  atlite:
+    default_cutout: my-hybrid-warming3-2018
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S2_warming3.csv
+  snapshots:
+    end: 2018-12-31 23:00
+    inclusive: left
+    start: 2018-01-01 00:00
+warming3_S2_2019:
+  atlite:
+    default_cutout: my-hybrid-warming3-2019
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S2_warming3.csv
+  snapshots:
+    end: 2019-12-31 23:00
+    inclusive: left
+    start: 2019-01-01 00:00
+warming3_S2_2020:
+  atlite:
+    default_cutout: my-hybrid-warming3-2020
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S2_warming3.csv
+  snapshots:
+    end: 2020-12-31 23:00
+    inclusive: left
+    start: 2020-01-01 00:00
+warming3_S2_2021:
+  atlite:
+    default_cutout: my-hybrid-warming3-2021
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S2_warming3.csv
+  snapshots:
+    end: 2021-12-31 23:00
+    inclusive: left
+    start: 2021-01-01 00:00
+warming3_S2_2022:
+  atlite:
+    default_cutout: my-hybrid-warming3-2022
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S2_warming3.csv
+  snapshots:
+    end: 2022-12-31 23:00
+    inclusive: left
+    start: 2022-01-01 00:00
+warming3_S2_2023:
+  atlite:
+    default_cutout: my-hybrid-warming3-2023
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S2_warming3.csv
+  snapshots:
+    end: 2023-12-31 23:00
+    inclusive: left
+    start: 2023-01-01 00:00
+warming3_S2_2024:
+  atlite:
+    default_cutout: my-hybrid-warming3-2024
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S2_warming3.csv
+  snapshots:
+    end: 2024-12-31 23:00
+    inclusive: left
+    start: 2024-01-01 00:00
+warming3_S3_2015:
+  atlite:
+    default_cutout: my-hybrid-warming3-2015
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S3_warming3.csv
+  snapshots:
+    end: 2015-12-31 23:00
+    inclusive: left
+    start: 2015-01-01 00:00
+warming3_S3_2016:
+  atlite:
+    default_cutout: my-hybrid-warming3-2016
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S3_warming3.csv
+  snapshots:
+    end: 2016-12-31 23:00
+    inclusive: left
+    start: 2016-01-01 00:00
+warming3_S3_2017:
+  atlite:
+    default_cutout: my-hybrid-warming3-2017
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S3_warming3.csv
+  snapshots:
+    end: 2017-12-31 23:00
+    inclusive: left
+    start: 2017-01-01 00:00
+warming3_S3_2018:
+  atlite:
+    default_cutout: my-hybrid-warming3-2018
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S3_warming3.csv
+  snapshots:
+    end: 2018-12-31 23:00
+    inclusive: left
+    start: 2018-01-01 00:00
+warming3_S3_2019:
+  atlite:
+    default_cutout: my-hybrid-warming3-2019
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S3_warming3.csv
+  snapshots:
+    end: 2019-12-31 23:00
+    inclusive: left
+    start: 2019-01-01 00:00
+warming3_S3_2020:
+  atlite:
+    default_cutout: my-hybrid-warming3-2020
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S3_warming3.csv
+  snapshots:
+    end: 2020-12-31 23:00
+    inclusive: left
+    start: 2020-01-01 00:00
+warming3_S3_2021:
+  atlite:
+    default_cutout: my-hybrid-warming3-2021
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S3_warming3.csv
+  snapshots:
+    end: 2021-12-31 23:00
+    inclusive: left
+    start: 2021-01-01 00:00
+warming3_S3_2022:
+  atlite:
+    default_cutout: my-hybrid-warming3-2022
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S3_warming3.csv
+  snapshots:
+    end: 2022-12-31 23:00
+    inclusive: left
+    start: 2022-01-01 00:00
+warming3_S3_2023:
+  atlite:
+    default_cutout: my-hybrid-warming3-2023
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S3_warming3.csv
+  snapshots:
+    end: 2023-12-31 23:00
+    inclusive: left
+    start: 2023-01-01 00:00
+warming3_S3_2024:
+  atlite:
+    default_cutout: my-hybrid-warming3-2024
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S3_warming3.csv
+  snapshots:
+    end: 2024-12-31 23:00
+    inclusive: left
+    start: 2024-01-01 00:00
+warming3_S4_2015:
+  atlite:
+    default_cutout: my-hybrid-warming3-2015
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S4_warming3.csv
+  snapshots:
+    end: 2015-12-31 23:00
+    inclusive: left
+    start: 2015-01-01 00:00
+warming3_S4_2016:
+  atlite:
+    default_cutout: my-hybrid-warming3-2016
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S4_warming3.csv
+  snapshots:
+    end: 2016-12-31 23:00
+    inclusive: left
+    start: 2016-01-01 00:00
+warming3_S4_2017:
+  atlite:
+    default_cutout: my-hybrid-warming3-2017
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S4_warming3.csv
+  snapshots:
+    end: 2017-12-31 23:00
+    inclusive: left
+    start: 2017-01-01 00:00
+warming3_S4_2018:
+  atlite:
+    default_cutout: my-hybrid-warming3-2018
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S4_warming3.csv
+  snapshots:
+    end: 2018-12-31 23:00
+    inclusive: left
+    start: 2018-01-01 00:00
+warming3_S4_2019:
+  atlite:
+    default_cutout: my-hybrid-warming3-2019
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S4_warming3.csv
+  snapshots:
+    end: 2019-12-31 23:00
+    inclusive: left
+    start: 2019-01-01 00:00
+warming3_S4_2020:
+  atlite:
+    default_cutout: my-hybrid-warming3-2020
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S4_warming3.csv
+  snapshots:
+    end: 2020-12-31 23:00
+    inclusive: left
+    start: 2020-01-01 00:00
+warming3_S4_2021:
+  atlite:
+    default_cutout: my-hybrid-warming3-2021
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S4_warming3.csv
+  snapshots:
+    end: 2021-12-31 23:00
+    inclusive: left
+    start: 2021-01-01 00:00
+warming3_S4_2022:
+  atlite:
+    default_cutout: my-hybrid-warming3-2022
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S4_warming3.csv
+  snapshots:
+    end: 2022-12-31 23:00
+    inclusive: left
+    start: 2022-01-01 00:00
+warming3_S4_2023:
+  atlite:
+    default_cutout: my-hybrid-warming3-2023
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S4_warming3.csv
+  snapshots:
+    end: 2023-12-31 23:00
+    inclusive: left
+    start: 2023-01-01 00:00
+warming3_S4_2024:
+  atlite:
+    default_cutout: my-hybrid-warming3-2024
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S4_warming3.csv
+  snapshots:
+    end: 2024-12-31 23:00
+    inclusive: left
+    start: 2024-01-01 00:00
+warming3_S5_2015:
+  atlite:
+    default_cutout: my-hybrid-warming3-2015
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S5_warming3.csv
+  snapshots:
+    end: 2015-12-31 23:00
+    inclusive: left
+    start: 2015-01-01 00:00
+warming3_S5_2016:
+  atlite:
+    default_cutout: my-hybrid-warming3-2016
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S5_warming3.csv
+  snapshots:
+    end: 2016-12-31 23:00
+    inclusive: left
+    start: 2016-01-01 00:00
+warming3_S5_2017:
+  atlite:
+    default_cutout: my-hybrid-warming3-2017
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S5_warming3.csv
+  snapshots:
+    end: 2017-12-31 23:00
+    inclusive: left
+    start: 2017-01-01 00:00
+warming3_S5_2018:
+  atlite:
+    default_cutout: my-hybrid-warming3-2018
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S5_warming3.csv
+  snapshots:
+    end: 2018-12-31 23:00
+    inclusive: left
+    start: 2018-01-01 00:00
+warming3_S5_2019:
+  atlite:
+    default_cutout: my-hybrid-warming3-2019
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S5_warming3.csv
+  snapshots:
+    end: 2019-12-31 23:00
+    inclusive: left
+    start: 2019-01-01 00:00
+warming3_S5_2020:
+  atlite:
+    default_cutout: my-hybrid-warming3-2020
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S5_warming3.csv
+  snapshots:
+    end: 2020-12-31 23:00
+    inclusive: left
+    start: 2020-01-01 00:00
+warming3_S5_2021:
+  atlite:
+    default_cutout: my-hybrid-warming3-2021
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S5_warming3.csv
+  snapshots:
+    end: 2021-12-31 23:00
+    inclusive: left
+    start: 2021-01-01 00:00
+warming3_S5_2022:
+  atlite:
+    default_cutout: my-hybrid-warming3-2022
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S5_warming3.csv
+  snapshots:
+    end: 2022-12-31 23:00
+    inclusive: left
+    start: 2022-01-01 00:00
+warming3_S5_2023:
+  atlite:
+    default_cutout: my-hybrid-warming3-2023
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S5_warming3.csv
+  snapshots:
+    end: 2023-12-31 23:00
+    inclusive: left
+    start: 2023-01-01 00:00
+warming3_S5_2024:
+  atlite:
+    default_cutout: my-hybrid-warming3-2024
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S5_warming3.csv
+  snapshots:
+    end: 2024-12-31 23:00
+    inclusive: left
+    start: 2024-01-01 00:00
+warming4_S0_2015:
+  atlite:
+    default_cutout: my-hybrid-warming4-2015
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S0_warming4.csv
+  snapshots:
+    end: 2015-12-31 23:00
+    inclusive: left
+    start: 2015-01-01 00:00
+warming4_S0_2016:
+  atlite:
+    default_cutout: my-hybrid-warming4-2016
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S0_warming4.csv
+  snapshots:
+    end: 2016-12-31 23:00
+    inclusive: left
+    start: 2016-01-01 00:00
+warming4_S0_2017:
+  atlite:
+    default_cutout: my-hybrid-warming4-2017
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S0_warming4.csv
+  snapshots:
+    end: 2017-12-31 23:00
+    inclusive: left
+    start: 2017-01-01 00:00
+warming4_S0_2018:
+  atlite:
+    default_cutout: my-hybrid-warming4-2018
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S0_warming4.csv
+  snapshots:
+    end: 2018-12-31 23:00
+    inclusive: left
+    start: 2018-01-01 00:00
+warming4_S0_2019:
+  atlite:
+    default_cutout: my-hybrid-warming4-2019
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S0_warming4.csv
+  snapshots:
+    end: 2019-12-31 23:00
+    inclusive: left
+    start: 2019-01-01 00:00
+warming4_S0_2020:
+  atlite:
+    default_cutout: my-hybrid-warming4-2020
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S0_warming4.csv
+  snapshots:
+    end: 2020-12-31 23:00
+    inclusive: left
+    start: 2020-01-01 00:00
+warming4_S0_2021:
+  atlite:
+    default_cutout: my-hybrid-warming4-2021
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S0_warming4.csv
+  snapshots:
+    end: 2021-12-31 23:00
+    inclusive: left
+    start: 2021-01-01 00:00
+warming4_S0_2022:
+  atlite:
+    default_cutout: my-hybrid-warming4-2022
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S0_warming4.csv
+  snapshots:
+    end: 2022-12-31 23:00
+    inclusive: left
+    start: 2022-01-01 00:00
+warming4_S0_2023:
+  atlite:
+    default_cutout: my-hybrid-warming4-2023
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S0_warming4.csv
+  snapshots:
+    end: 2023-12-31 23:00
+    inclusive: left
+    start: 2023-01-01 00:00
+warming4_S0_2024:
+  atlite:
+    default_cutout: my-hybrid-warming4-2024
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S0_warming4.csv
+  snapshots:
+    end: 2024-12-31 23:00
+    inclusive: left
+    start: 2024-01-01 00:00
+warming4_S1_2015:
+  atlite:
+    default_cutout: my-hybrid-warming4-2015
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S1_warming4.csv
+  snapshots:
+    end: 2015-12-31 23:00
+    inclusive: left
+    start: 2015-01-01 00:00
+warming4_S1_2016:
+  atlite:
+    default_cutout: my-hybrid-warming4-2016
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S1_warming4.csv
+  snapshots:
+    end: 2016-12-31 23:00
+    inclusive: left
+    start: 2016-01-01 00:00
+warming4_S1_2017:
+  atlite:
+    default_cutout: my-hybrid-warming4-2017
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S1_warming4.csv
+  snapshots:
+    end: 2017-12-31 23:00
+    inclusive: left
+    start: 2017-01-01 00:00
+warming4_S1_2018:
+  atlite:
+    default_cutout: my-hybrid-warming4-2018
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S1_warming4.csv
+  snapshots:
+    end: 2018-12-31 23:00
+    inclusive: left
+    start: 2018-01-01 00:00
+warming4_S1_2019:
+  atlite:
+    default_cutout: my-hybrid-warming4-2019
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S1_warming4.csv
+  snapshots:
+    end: 2019-12-31 23:00
+    inclusive: left
+    start: 2019-01-01 00:00
+warming4_S1_2020:
+  atlite:
+    default_cutout: my-hybrid-warming4-2020
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S1_warming4.csv
+  snapshots:
+    end: 2020-12-31 23:00
+    inclusive: left
+    start: 2020-01-01 00:00
+warming4_S1_2021:
+  atlite:
+    default_cutout: my-hybrid-warming4-2021
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S1_warming4.csv
+  snapshots:
+    end: 2021-12-31 23:00
+    inclusive: left
+    start: 2021-01-01 00:00
+warming4_S1_2022:
+  atlite:
+    default_cutout: my-hybrid-warming4-2022
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S1_warming4.csv
+  snapshots:
+    end: 2022-12-31 23:00
+    inclusive: left
+    start: 2022-01-01 00:00
+warming4_S1_2023:
+  atlite:
+    default_cutout: my-hybrid-warming4-2023
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S1_warming4.csv
+  snapshots:
+    end: 2023-12-31 23:00
+    inclusive: left
+    start: 2023-01-01 00:00
+warming4_S1_2024:
+  atlite:
+    default_cutout: my-hybrid-warming4-2024
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S1_warming4.csv
+  snapshots:
+    end: 2024-12-31 23:00
+    inclusive: left
+    start: 2024-01-01 00:00
+warming4_S2_2015:
+  atlite:
+    default_cutout: my-hybrid-warming4-2015
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S2_warming4.csv
+  snapshots:
+    end: 2015-12-31 23:00
+    inclusive: left
+    start: 2015-01-01 00:00
+warming4_S2_2016:
+  atlite:
+    default_cutout: my-hybrid-warming4-2016
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S2_warming4.csv
+  snapshots:
+    end: 2016-12-31 23:00
+    inclusive: left
+    start: 2016-01-01 00:00
+warming4_S2_2017:
+  atlite:
+    default_cutout: my-hybrid-warming4-2017
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S2_warming4.csv
+  snapshots:
+    end: 2017-12-31 23:00
+    inclusive: left
+    start: 2017-01-01 00:00
+warming4_S2_2018:
+  atlite:
+    default_cutout: my-hybrid-warming4-2018
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S2_warming4.csv
+  snapshots:
+    end: 2018-12-31 23:00
+    inclusive: left
+    start: 2018-01-01 00:00
+warming4_S2_2019:
+  atlite:
+    default_cutout: my-hybrid-warming4-2019
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S2_warming4.csv
+  snapshots:
+    end: 2019-12-31 23:00
+    inclusive: left
+    start: 2019-01-01 00:00
+warming4_S2_2020:
+  atlite:
+    default_cutout: my-hybrid-warming4-2020
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S2_warming4.csv
+  snapshots:
+    end: 2020-12-31 23:00
+    inclusive: left
+    start: 2020-01-01 00:00
+warming4_S2_2021:
+  atlite:
+    default_cutout: my-hybrid-warming4-2021
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S2_warming4.csv
+  snapshots:
+    end: 2021-12-31 23:00
+    inclusive: left
+    start: 2021-01-01 00:00
+warming4_S2_2022:
+  atlite:
+    default_cutout: my-hybrid-warming4-2022
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S2_warming4.csv
+  snapshots:
+    end: 2022-12-31 23:00
+    inclusive: left
+    start: 2022-01-01 00:00
+warming4_S2_2023:
+  atlite:
+    default_cutout: my-hybrid-warming4-2023
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S2_warming4.csv
+  snapshots:
+    end: 2023-12-31 23:00
+    inclusive: left
+    start: 2023-01-01 00:00
+warming4_S2_2024:
+  atlite:
+    default_cutout: my-hybrid-warming4-2024
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S2_warming4.csv
+  snapshots:
+    end: 2024-12-31 23:00
+    inclusive: left
+    start: 2024-01-01 00:00
+warming4_S3_2015:
+  atlite:
+    default_cutout: my-hybrid-warming4-2015
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S3_warming4.csv
+  snapshots:
+    end: 2015-12-31 23:00
+    inclusive: left
+    start: 2015-01-01 00:00
+warming4_S3_2016:
+  atlite:
+    default_cutout: my-hybrid-warming4-2016
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S3_warming4.csv
+  snapshots:
+    end: 2016-12-31 23:00
+    inclusive: left
+    start: 2016-01-01 00:00
+warming4_S3_2017:
+  atlite:
+    default_cutout: my-hybrid-warming4-2017
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S3_warming4.csv
+  snapshots:
+    end: 2017-12-31 23:00
+    inclusive: left
+    start: 2017-01-01 00:00
+warming4_S3_2018:
+  atlite:
+    default_cutout: my-hybrid-warming4-2018
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S3_warming4.csv
+  snapshots:
+    end: 2018-12-31 23:00
+    inclusive: left
+    start: 2018-01-01 00:00
+warming4_S3_2019:
+  atlite:
+    default_cutout: my-hybrid-warming4-2019
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S3_warming4.csv
+  snapshots:
+    end: 2019-12-31 23:00
+    inclusive: left
+    start: 2019-01-01 00:00
+warming4_S3_2020:
+  atlite:
+    default_cutout: my-hybrid-warming4-2020
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S3_warming4.csv
+  snapshots:
+    end: 2020-12-31 23:00
+    inclusive: left
+    start: 2020-01-01 00:00
+warming4_S3_2021:
+  atlite:
+    default_cutout: my-hybrid-warming4-2021
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S3_warming4.csv
+  snapshots:
+    end: 2021-12-31 23:00
+    inclusive: left
+    start: 2021-01-01 00:00
+warming4_S3_2022:
+  atlite:
+    default_cutout: my-hybrid-warming4-2022
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S3_warming4.csv
+  snapshots:
+    end: 2022-12-31 23:00
+    inclusive: left
+    start: 2022-01-01 00:00
+warming4_S3_2023:
+  atlite:
+    default_cutout: my-hybrid-warming4-2023
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S3_warming4.csv
+  snapshots:
+    end: 2023-12-31 23:00
+    inclusive: left
+    start: 2023-01-01 00:00
+warming4_S3_2024:
+  atlite:
+    default_cutout: my-hybrid-warming4-2024
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S3_warming4.csv
+  snapshots:
+    end: 2024-12-31 23:00
+    inclusive: left
+    start: 2024-01-01 00:00
+warming4_S4_2015:
+  atlite:
+    default_cutout: my-hybrid-warming4-2015
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S4_warming4.csv
+  snapshots:
+    end: 2015-12-31 23:00
+    inclusive: left
+    start: 2015-01-01 00:00
+warming4_S4_2016:
+  atlite:
+    default_cutout: my-hybrid-warming4-2016
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S4_warming4.csv
+  snapshots:
+    end: 2016-12-31 23:00
+    inclusive: left
+    start: 2016-01-01 00:00
+warming4_S4_2017:
+  atlite:
+    default_cutout: my-hybrid-warming4-2017
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S4_warming4.csv
+  snapshots:
+    end: 2017-12-31 23:00
+    inclusive: left
+    start: 2017-01-01 00:00
+warming4_S4_2018:
+  atlite:
+    default_cutout: my-hybrid-warming4-2018
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S4_warming4.csv
+  snapshots:
+    end: 2018-12-31 23:00
+    inclusive: left
+    start: 2018-01-01 00:00
+warming4_S4_2019:
+  atlite:
+    default_cutout: my-hybrid-warming4-2019
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S4_warming4.csv
+  snapshots:
+    end: 2019-12-31 23:00
+    inclusive: left
+    start: 2019-01-01 00:00
+warming4_S4_2020:
+  atlite:
+    default_cutout: my-hybrid-warming4-2020
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S4_warming4.csv
+  snapshots:
+    end: 2020-12-31 23:00
+    inclusive: left
+    start: 2020-01-01 00:00
+warming4_S4_2021:
+  atlite:
+    default_cutout: my-hybrid-warming4-2021
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S4_warming4.csv
+  snapshots:
+    end: 2021-12-31 23:00
+    inclusive: left
+    start: 2021-01-01 00:00
+warming4_S4_2022:
+  atlite:
+    default_cutout: my-hybrid-warming4-2022
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S4_warming4.csv
+  snapshots:
+    end: 2022-12-31 23:00
+    inclusive: left
+    start: 2022-01-01 00:00
+warming4_S4_2023:
+  atlite:
+    default_cutout: my-hybrid-warming4-2023
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S4_warming4.csv
+  snapshots:
+    end: 2023-12-31 23:00
+    inclusive: left
+    start: 2023-01-01 00:00
+warming4_S4_2024:
+  atlite:
+    default_cutout: my-hybrid-warming4-2024
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S4_warming4.csv
+  snapshots:
+    end: 2024-12-31 23:00
+    inclusive: left
+    start: 2024-01-01 00:00
+warming4_S5_2015:
+  atlite:
+    default_cutout: my-hybrid-warming4-2015
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S5_warming4.csv
+  snapshots:
+    end: 2015-12-31 23:00
+    inclusive: left
+    start: 2015-01-01 00:00
+warming4_S5_2016:
+  atlite:
+    default_cutout: my-hybrid-warming4-2016
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S5_warming4.csv
+  snapshots:
+    end: 2016-12-31 23:00
+    inclusive: left
+    start: 2016-01-01 00:00
+warming4_S5_2017:
+  atlite:
+    default_cutout: my-hybrid-warming4-2017
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S5_warming4.csv
+  snapshots:
+    end: 2017-12-31 23:00
+    inclusive: left
+    start: 2017-01-01 00:00
+warming4_S5_2018:
+  atlite:
+    default_cutout: my-hybrid-warming4-2018
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S5_warming4.csv
+  snapshots:
+    end: 2018-12-31 23:00
+    inclusive: left
+    start: 2018-01-01 00:00
+warming4_S5_2019:
+  atlite:
+    default_cutout: my-hybrid-warming4-2019
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S5_warming4.csv
+  snapshots:
+    end: 2019-12-31 23:00
+    inclusive: left
+    start: 2019-01-01 00:00
+warming4_S5_2020:
+  atlite:
+    default_cutout: my-hybrid-warming4-2020
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S5_warming4.csv
+  snapshots:
+    end: 2020-12-31 23:00
+    inclusive: left
+    start: 2020-01-01 00:00
+warming4_S5_2021:
+  atlite:
+    default_cutout: my-hybrid-warming4-2021
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S5_warming4.csv
+  snapshots:
+    end: 2021-12-31 23:00
+    inclusive: left
+    start: 2021-01-01 00:00
+warming4_S5_2022:
+  atlite:
+    default_cutout: my-hybrid-warming4-2022
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S5_warming4.csv
+  snapshots:
+    end: 2022-12-31 23:00
+    inclusive: left
+    start: 2022-01-01 00:00
+warming4_S5_2023:
+  atlite:
+    default_cutout: my-hybrid-warming4-2023
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S5_warming4.csv
+  snapshots:
+    end: 2023-12-31 23:00
+    inclusive: left
+    start: 2023-01-01 00:00
+warming4_S5_2024:
+  atlite:
+    default_cutout: my-hybrid-warming4-2024
+  load:
+    custom_path: /gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming4/mme_results/load_S5_warming4.csv
+  snapshots:
+    end: 2024-12-31 23:00
+    inclusive: left
+    start: 2024-01-01 00:00

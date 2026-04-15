@@ -23,7 +23,7 @@ weather_year_2015:
     offwind-dc:
       cutout: my-hybrid-2015
     solar:
-      cutout: europe-era5-2015
+      cutout: my-hybrid-2015
   
   # solar_thermal:
   #   cutout: europe-era5-2015

@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: Contributors to PyPSA-Eur <https://github.com/pypsa/pypsa-eur>
+#
 # SPDX-License-Identifier: MIT
 
-import os
 from pathlib import Path
 import yaml
 from os.path import normpath, exists, join
@@ -10,9 +10,9 @@ from dotenv import load_dotenv
 from snakemake.utils import min_version
 
 load_dotenv()
+
 min_version("8.11")
 
-# 使用 as v_config 彻底避免 config 变量名冲突
 from scripts._helpers import (
     get_rdir,
     get_scenarios,
@@ -20,20 +20,21 @@ from scripts._helpers import (
     path_provider,
     script_path_provider,
 )
-from scripts.lib.validation.config import validate_config as v_config
+from scripts.lib.validation.config import validate_config
+
 
 configfile: "config/config.default.yaml"
 configfile: "config/plotting.default.yaml"
 
+
 if Path("config/config.yaml").exists():
+
     configfile: "config/config.yaml"
 
-# --- 核心修正 1: 解决 TypeError ---
-# 使用 workflow.config 绕过任何同名模块冲突
-v_config(workflow.config)
 
-# 统一使用 workflow.config 引用数据
-run = workflow.config["run"]
+validate_config(config)
+
+run = config["run"]
 scenarios = get_scenarios(run)
 RDIR = get_rdir(run)
 shadow_config = get_shadow(run)
@@ -42,41 +43,11 @@ shared_resources = run["shared_resources"]["policy"]
 exclude_from_shared = run["shared_resources"]["exclude"]
 logs = path_provider("logs/", RDIR, shared_resources, exclude_from_shared)
 benchmarks = path_provider("benchmarks/", RDIR, shared_resources, exclude_from_shared)
-
-resources_orig = path_provider("resources/", RDIR, shared_resources, exclude_from_shared)
-
-# --- 2. 增强版动态拦截与路径重定向 ---
-def resources(path, *args, **kwargs):
-    import os
-    conf = workflow.config  # 统一使用 workflow.config 避免 TypeError
-    
-    # 【劫持 Load 数据】
-    if "load_hourly.csv" in path:
-        c_path = conf.get("load", {}).get("custom_path")
-        if c_path: return c_path
-
-    # 【劫持 Cutout 数据】
-    # 只要路径里包含 cutout 这个词，就直接返回你在 config 里指定的绝对路径
-    if "cutout" in path and path.endswith(".nc"):
-        c_dir = conf.get("atlite", {}).get("cutout_directory")
-        if c_dir:
-            # 自动提取文件名，拼接到你的 GPFS 目录
-            return os.path.join(c_dir, os.path.basename(path))
-
-    return resources_orig(path, *args, **kwargs)
-
-# --- 3. 强制关闭干扰规则 (核心：解决 MissingInput) ---
-# 既然我们已经有了物理文件，就直接关掉这个会导致路径报错的规则
-if "retrieve_cutout" in workflow.rules:
-    workflow.rules.retrieve_cutout.enabled = False
-
-# 强制覆盖配置开关，确保不触发下载
-workflow.config["enable"]["retrieve"] = False
-workflow.config["enable"]["build_load"] = False
-# -----------------------------------
-
+resources = path_provider("resources/", RDIR, shared_resources, exclude_from_shared)
 scripts = script_path_provider(Path(workflow.snakefile).parent)
-RESULTS = "results/" + RDIR
+
+# RESULTS = "results/" + RDIR
+RESULTS = "/gpfs1/data/compoundx/yumeng/paper2/pypsa_output/" + RDIR
 
 
 localrules:
@@ -405,32 +376,3 @@ rule sync_dry:
         rsync -uvarh --no-g {params.cluster}/results . -n || echo "No results directory, skipping rsync"
         rsync -uvarh --no-g {params.cluster}/logs . -n || echo "No logs directory, skipping rsync"
         """
-
-def patch_all_rules():
-    import os
-    c_dir = workflow.config.get("atlite", {}).get("cutout_directory")
-    if not c_dir: return
-
-    for r in workflow.rules:
-        # 禁用 retrieve_cutout 规则，防止它尝试“生产”乱码路径
-        if r.name == "retrieve_cutout":
-            r.enabled = False
-            continue
-        
-        # 检查每个规则的输入，如果包含 data/cutout 或 resources/cutouts，直接替换为 GPFS 路径
-        new_inputs = []
-        for idx, item in enumerate(r.input):
-            s_item = str(item)
-            if ("data/cutout" in s_item or "resources/cutouts" in s_item) and s_item.endswith(".nc"):
-                fname = os.path.basename(s_item)
-                abs_path = os.path.join(c_dir, fname)
-                # 只有当 GPFS 上的文件确实存在时才替换
-                if os.path.exists(abs_path):
-                    r.input[idx] = abs_path
-
-# 在文件最后调用这个函数（或者放在 include 之后）
-patch_all_rules()
-
-# --- 4. 强制关闭干扰开关 ---
-workflow.config["enable"]["retrieve"] = False
-workflow.config["enable"]["build_load"] = False

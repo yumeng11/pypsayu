@@ -1,0 +1,51 @@
+version: v2025.04.0
+tutorial: false
+
+run:
+  name: "warming_study" # 必须有值以激活 RDIR="{run}/"
+  scenarios:
+    enable: true      
+    file: /home/mengyu/projects/pypsa-eur/config/scenario.warming.yaml
+
+countries: ['AL', 'AT', 'BA', 'BE', 'BG', 'CH', 'CZ', 'DE', 'DK', 'EE', 'ES', 'FI', 'FR', 'GB', 'GR', 'HR', 'HU', 'IE', 'IT', 'LT', 'LU', 'LV', 'ME', 'MK', 'NL', 'NO', 'PL', 'PT', 'RO', 'RS', 'SE', 'SI', 'SK']
+
+# 基础电力设置
+electricity:
+  voltages: [110., 132., 150., 220., 300., 330., 380., 400., 500., 750.]
+  renewable_carriers: [solar, onwind, offwind-ac, offwind-dc]
+
+# 默认规划年份 (如果你不改，18个实验都会用这个成本数据)
+scenario:
+  clusters: [64]
+  planning_horizons: [2020] 
+  opts: [""]
+  sector_opts: [""]
+
+enable:
+  retrieve: false
+  build_cutout: false
+  build_load: false
+
+sector:
+  heating: false
+  transport: false
+  industry: false
+  gas_network: false
+  agriculture: false
+  biomass: false
+  shipping: false
+  aviation: false
+  fossil_fuels: false
+
+load:
+  prebuilt: true
+
+# 气象数据保存路径
+data:
+  cutout:
+    source: build
+    folder: "/gpfs1/data/compoundx/yumeng/paper2/atlite/cutouts/test"
+
+atlite:
+  nprocesses: 4
+  show_progress: true

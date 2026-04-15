@@ -1,0 +1,273 @@
+warming2_s0_weather_year_2015:
+  snapshots:
+    start: "2015-01-01 00:00"
+    end: "2015-12-31 23:00"
+    inclusive: "left"
+  
+  atlite:
+    default_cutout: my-hybrid-2015
+    cutouts:
+      my-hybrid-2015:
+        module: era5
+        x: [-22., 45.]
+        y: [33., 72.]
+        dx: 0.5
+        dy: 0.5
+        time: ['2015-01', '2015-12']
+    
+  renewable:
+    onwind:
+      cutout: my-hybrid-2015
+    offwind-ac:
+      cutout: my-hybrid-2015
+    offwind-dc:
+      cutout: my-hybrid-2015
+    solar:
+      cutout: my-hybrid-2015
+
+warming2_s0_weather_year_2016:
+  snapshots:
+    start: "2016-01-01 00:00"
+    end: "2016-12-31 23:00"
+    inclusive: "left"
+  
+  atlite:
+    default_cutout: my-hybrid-2016
+    cutouts:
+      my-hybrid-2016:
+        module: era5
+        x: [-22., 45.]
+        y: [33., 72.]
+        dx: 0.5
+        dy: 0.5
+        time: ['2016-01', '2016-12']
+    
+  renewable:
+    onwind:
+      cutout: my-hybrid-2016
+    offwind-ac:
+      cutout: my-hybrid-2016
+    offwind-dc:
+      cutout: my-hybrid-2016
+    solar:
+      cutout: my-hybrid-2016
+
+warming2_s0_weather_year_2017:
+  snapshots:
+    start: "2017-01-01 00:00"
+    end: "2017-12-31 23:00"
+    inclusive: "left"
+  
+  atlite:
+    default_cutout: my-hybrid-2017
+    cutouts:
+      my-hybrid-2017:
+        module: era5
+        x: [-22., 45.]
+        y: [33., 72.]
+        dx: 0.5
+        dy: 0.5
+        time: ['2017-01', '2017-12']
+    
+  renewable:
+    onwind:
+      cutout: my-hybrid-2017
+    offwind-ac:
+      cutout: my-hybrid-2017
+    offwind-dc:
+      cutout: my-hybrid-2017
+    solar:
+      cutout: my-hybrid-2017
+
+warming2_s0_weather_year_2018:
+  snapshots:
+    start: "2018-01-01 00:00"
+    end: "2018-12-31 23:00"
+    inclusive: "left"
+  
+  atlite:
+    default_cutout: my-hybrid-2018
+    cutouts:
+      my-hybrid-2018:
+        module: era5
+        x: [-22., 45.]
+        y: [33., 72.]
+        dx: 0.5
+        dy: 0.5
+        time: ['2018-01', '2018-12']
+    
+  renewable:
+    onwind:
+      cutout: my-hybrid-2018
+    offwind-ac:
+      cutout: my-hybrid-2018
+    offwind-dc:
+      cutout: my-hybrid-2018
+    solar:
+      cutout: my-hybrid-2018
+
+warming2_s0_weather_year_2019:
+  snapshots:
+    start: "2019-01-01 00:00"
+    end: "2019-12-31 23:00"
+    inclusive: "left"
+
+  atlite:
+    default_cutout: my-hybrid-2019
+    cutouts:
+      my-hybrid-2019:
+        module: era5
+        x: [-22., 45.]
+        y: [33., 72.]
+        dx: 0.5
+        dy: 0.5
+        time: ['2019-01', '2019-12']
+
+  renewable:
+    onwind:
+      cutout: my-hybrid-2019
+    offwind-ac: 
+      cutout: my-hybrid-2019
+    offwind-dc:
+      cutout: my-hybrid-2019
+    solar:
+      cutout: my-hybrid-2019
+
+warming2_s0_weather_year_2020:
+  snapshots:
+    start: "2020-01-01 00:00"
+    end: "2020-12-31 23:00"
+    inclusive: "left"
+
+  atlite:
+    default_cutout: my-hybrid-2020
+    cutouts:
+      my-hybrid-2020:
+        module: era5
+        x: [-22., 45.]
+        y: [33., 72.]
+        dx: 0.5
+        dy: 0.5
+        time: ['2020-01', '2020-12']
+
+  renewable:
+    onwind:
+      cutout: my-hybrid-2020
+    offwind-ac:
+      cutout: my-hybrid-2020
+    offwind-dc:
+      cutout: my-hybrid-2020
+    solar:
+      cutout: my-hybrid-2020
+
+warming2_s0_weather_year_2021:
+  snapshots:
+    start: "2021-01-01 00:00"
+    end: "2021-12-31 23:00"
+    inclusive: "left"
+
+  atlite:
+    default_cutout: my-hybrid-2021
+    cutouts:
+      my-hybrid-2021:
+        module: era5
+        x: [-22., 45.]
+        y: [33., 72.]
+        dx: 0.5
+        dy: 0.5
+        time: ['2021-01', '2021-12']
+
+  renewable:
+    onwind:
+      cutout: my-hybrid-2021
+    offwind-ac:
+      cutout: my-hybrid-2021
+    offwind-dc:
+      cutout: my-hybrid-2021
+    solar:
+      cutout: my-hybrid-2021
+
+warming2_s0_weather_year_2022:
+  snapshots:
+    start: "2022-01-01 00:00"
+    end: "2022-12-31 23:00"
+    inclusive: "left"
+
+  atlite:
+    default_cutout: my-hybrid-2022
+    cutouts:
+      my-hybrid-2022:
+        module: era5
+        x: [-22., 45.]
+        y: [33., 72.]
+        dx: 0.5
+        dy: 0.5
+        time: ['2022-01', '2022-12']
+
+  renewable:
+    onwind:
+      cutout: my-hybrid-2022
+    offwind-ac:
+      cutout: my-hybrid-2022
+    offwind-dc:
+      cutout: my-hybrid-2022
+    solar:
+      cutout: my-hybrid-2022
+
+warming2_s0_weather_year_2023:
+  snapshots:
+    start: "2023-01-01 00:00"
+    end: "2023-12-31 23:00"
+    inclusive: "left"
+
+  atlite:
+    default_cutout: my-hybrid-2023
+    cutouts:
+      my-hybrid-2023:
+        module: era5
+        x: [-22., 45.]
+        y: [33., 72.]
+        dx: 0.5
+        dy: 0.5
+        time: ['2023-01', '2023-12']
+
+  renewable:
+    onwind:
+      cutout: my-hybrid-2023
+    offwind-ac:
+      cutout: my-hybrid-2023
+    offwind-dc:
+      cutout: my-hybrid-2023
+    solar:
+      cutout: my-hybrid-2023
+
+warming2_s0_weather_year_2024:
+  snapshots:
+    start: "2024-01-01 00:00"
+    end: "2024-12-31 23:00"
+    inclusive: "left"
+
+  atlite:
+    default_cutout: my-hybrid-2024
+    cutouts:
+      my-hybrid-2024:
+        module: era5
+        x: [-22., 45.]
+        y: [33., 72.]
+        dx: 0.5
+        dy: 0.5
+        time: ['2024-01', '2024-12']
+
+  renewable:
+    onwind:
+      cutout: my-hybrid-2024
+    offwind-ac:
+      cutout: my-hybrid-2024
+    offwind-dc:
+      cutout: my-hybrid-2024
+    solar:
+      cutout: my-hybrid-2024
+
+
+
+  

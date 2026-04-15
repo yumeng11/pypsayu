@@ -26,12 +26,12 @@ load:
 electricity:
   voltages: [110., 132., 150., 220., 300., 330., 380., 400., 500., 750.] # 包含全电压
   renewable_carriers: [solar, onwind, offwind-ac, offwind-dc] # 无 hydro
-  conventional_carriers: [nuclear, OCGT, CCGT, coal]
-  extendable_carriers: # 只做调度，不扩建
-    Generator: []
-    StorageUnit: []
-    Store: []
-    Link: []
+  # conventional_carriers: [nuclear, OCGT, CCGT, coal]
+  # extendable_carriers: # 只做调度，不扩建
+  #   Generator: []
+  #   StorageUnit: []
+  #   Store: []
+  #   Link: []
 
 
 sector:
@@ -46,7 +46,7 @@ sector:
   fossil_fuels: false
 
 scenario:
-  clusters: [128]
+  clusters: [64]
   planning_horizons: [2015]
   opts: [""]
   sector_opts: [""]
