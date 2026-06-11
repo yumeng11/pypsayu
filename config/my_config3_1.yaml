@@ -10,7 +10,7 @@ run:
   name: "test" 
   scenarios:
     enable: true      
-    file: /home/mengyu/projects/pypsa-eur/config/scenario3.yaml
+    file: /home/mengyu/projects/pypsa-eur/config/scenario3_1.yaml
 
 countries: ['AL', 'AT', 'BA', 'BE', 'BG', 'CH', 'CZ', 'DE', 'DK', 'EE', 'ES', 'FI', 'FR', 'GB', 'GR', 'HR', 'HU', 'IE', 'IT', 'LT', 'LU', 'LV', 'ME', 'MK', 'NL', 'NO', 'PL', 'PT', 'RO', 'RS', 'SE', 'SI', 'SK']
 snapshots:
@@ -40,7 +40,7 @@ sector:
   fossil_fuels: false
 
 scenario:
-  clusters: [512]
+  clusters: [128]
   planning_horizons: [2020]
   opts: [""]
   sector_opts: [""]

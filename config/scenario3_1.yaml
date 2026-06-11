@@ -1,13 +1,13 @@
-warming2_s0_weather_year_2015_noclip:
+warming2_s0_weather_year_2015_clip:
   snapshots:
     start: "2015-01-01 00:00"
     end: "2015-12-31 23:00"
     inclusive: "left"
   
   atlite:
-    default_cutout: my-hybrid-2015_noclip
+    default_cutout: my-hybrid-2015_clip
     cutouts:
-      my-hybrid-2015_noclip:
+      my-hybrid-2015_clip:
         module: era5
         x: [-22., 45.]
         y: [33., 72.]
@@ -17,13 +17,13 @@ warming2_s0_weather_year_2015_noclip:
     
   renewable:
     onwind:
-      cutout: my-hybrid-2015_noclip
+      cutout: my-hybrid-2015_clip
     offwind-ac:
-      cutout: my-hybrid-2015_noclip
+      cutout: my-hybrid-2015_clip
     offwind-dc:
-      cutout: my-hybrid-2015_noclip
+      cutout: my-hybrid-2015_clip
     solar:
-      cutout: my-hybrid-2015_noclip
+      cutout: my-hybrid-2015_clip
 
 # warming2_s0_weather_year_2016:
 #   snapshots:

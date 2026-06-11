@@ -18,9 +18,9 @@ snapshots:
   end: "2015-01-31 23:00" # 确保和你的 load 数据行数一致 (744h)
   inclusive: 'left'
 
-load:
-  prebuilt: true          
-  custom_path: "resources/electricity_demand.csv" 
+# load:
+#   prebuilt: false          
+  # custom_path: "resources/electricity_demand.csv" 
 
 
 electricity:
@@ -46,8 +46,9 @@ sector:
   fossil_fuels: false
 
 scenario:
-  clusters: [128]
-  planning_horizons: [2015]
+  clusters:
+  - 512
+  planning_horizons: [2020]
   opts: [""]
   sector_opts: [""]
 
@@ -58,7 +59,7 @@ data:
 enable:
   retrieve: false
   build_cutout: true
-  build_load: false
+  build_load: true
 
 atlite:
   nprocesses: 4
@@ -69,8 +70,8 @@ atlite:
       module: era5
       x: [-12., 42.]
       y: [33., 72.]
-      dx: 0.5
-      dy: 0.5
+      dx: 0.3
+      dy: 0.3
       # 仅下载一月份，确保不会因为文件过大再次触发磁盘配额报错
       time: ['2015-01', '2015-01']
       

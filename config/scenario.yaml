@@ -11,8 +11,8 @@ weather_year_2015:
         module: era5
         x: [-12., 42.]
         y: [33., 72.]
-        dx: 0.5
-        dy: 0.5
+        dx: 0.3
+        dy: 0.3
         time: ['2015-01', '2015-01']
     
   renewable:
