@@ -79,6 +79,6 @@ print(f"✅ Network 提取完成。模型总装机: {net_values1.sum() / 1e3:.2f
 # plt.xlabel("Data Source")
 
 # plt.tight_layout()
-# plt.savefig("/gpfs1/schlecker/home/mengyu/projects/pypsa-eur/check_process_folder/plots/DE_onwind_capacity_comparison.png", dpi=150)
+# plt.savefig("/gpfs1/data/compoundx/yumeng/project_code/pypsa-eur/check_process_folder/plots/DE_onwind_capacity_comparison.png", dpi=150)
 # plt.show()
 

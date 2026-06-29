@@ -10,7 +10,7 @@ run:
   # name: "" 
   scenarios:
     enable: true      
-    file: /home/mengyu/projects/pypsa-eur/config/scenario2.yaml
+    file: /gpfs1/data/compoundx/yumeng/project_code/pypsa-eur/config/archive_single_year_runs/jan2015_cutout_test_scenario.yaml
 
 countries: ['AL', 'AT', 'BA', 'BE', 'BG', 'CH', 'CZ', 'DE', 'DK', 'EE', 'ES', 'FI', 'FR', 'GB', 'GR', 'HR', 'HU', 'IE', 'IT', 'LT', 'LU', 'LV', 'ME', 'MK', 'NL', 'NO', 'PL', 'PT', 'RO', 'RS', 'SE', 'SI', 'SK']
 snapshots:
@@ -18,9 +18,9 @@ snapshots:
   end: "2015-01-31 23:00" # 确保和你的 load 数据行数一致 (744h)
   inclusive: 'left'
 
-load:
-  prebuilt: true          
-  custom_path: "resources/electricity_demand.csv" 
+# load:
+#   prebuilt: false          
+  # custom_path: "resources/electricity_demand.csv" 
 
 
 electricity:
@@ -46,8 +46,9 @@ sector:
   fossil_fuels: false
 
 scenario:
-  clusters: [64]
-  planning_horizons: [2015]
+  clusters:
+  - 512
+  planning_horizons: [2020]
   opts: [""]
   sector_opts: [""]
 
@@ -57,20 +58,20 @@ data:
 
 enable:
   retrieve: false
-  build_cutout: false
-  build_load: false
+  build_cutout: true
+  build_load: true
 
 atlite:
   nprocesses: 4
   show_progress: true
-  default_cutout: my-hybrid-2015 
+  default_cutout: europe-era5-2015 
   cutouts:
-    my-hybrid-2015: 
+    europe-era5-2015: 
       module: era5
-      x: [-22., 45.]
+      x: [-12., 42.]
       y: [33., 72.]
-      dx: 0.5
-      dy: 0.5
+      dx: 0.3
+      dy: 0.3
       # 仅下载一月份，确保不会因为文件过大再次触发磁盘配额报错
       time: ['2015-01', '2015-01']
       

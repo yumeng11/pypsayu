@@ -56,7 +56,7 @@ ax.set_title("NL2 29 Location & Cutout Bounds Check", fontsize=15)
 ax.grid(True, linestyle='--', alpha=0.6)
 
 plt.legend(['Cutout Range', 'NL2 29 Area'])
-plt.savefig("/home/mengyu/projects/pypsa-eur/check_process_folder/nl2_29_check_fixed.png")
+plt.savefig("/gpfs1/data/compoundx/yumeng/project_code/pypsa-eur/check_process_folder/nl2_29_check_fixed.png")
 
 # 5. 打印关键坐标对比
 bounds = nl_target.total_bounds

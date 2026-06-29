@@ -24,7 +24,7 @@ run:
   name: ""
   scenarios:
     enable: true
-    file: /home/mengyu/projects/pypsa-eur/config/scenario.yaml
+    file: /gpfs1/data/compoundx/yumeng/project_code/pypsa-eur/config/scenarios.template.yaml
   disable_progressbar: false
   shared_resources:
     policy: false

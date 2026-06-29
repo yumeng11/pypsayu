@@ -60,10 +60,10 @@ ax1.set_ylim(0, max(solar_de_jan.max(), wind_de_jan.max()) * 1.2)
 
 plt.title("Germany: Validation of Solar & Wind (Jan 2015)", fontsize=14)
 plt.tight_layout()
-plt.savefig("/gpfs1/schlecker/home/mengyu/projects/pypsa-eur/check_process_folder/plots/DE_generation_josp.png", dpi=300)
+plt.savefig("/gpfs1/data/compoundx/yumeng/project_code/pypsa-eur/check_process_folder/plots/DE_generation_josp.png", dpi=300)
 plt.show()
 
-# n = pypsa.Network("/gpfs1/schlecker/home/mengyu/projects/pypsa-eur/results/networks/base_s_64_elec_.nc")
+# n = pypsa.Network("/gpfs1/data/compoundx/yumeng/project_code/pypsa-eur/results/networks/base_s_64_elec_.nc")
 # # 1. 筛选全欧洲 (所有 Bus) 的组件索引
 # eu_solar_i = n.generators.query("carrier == 'solar'").index
 # eu_onwind_i = n.generators.query("carrier == 'onwind'").index
@@ -98,5 +98,5 @@ plt.show()
 
 # plt.title("Europe: Potential Generation (Jan 2015, 64 Clusters)")
 # plt.tight_layout()
-# plt.savefig("/gpfs1/schlecker/home/mengyu/projects/pypsa-eur/check_process_folder/plots/europe_generation_load.png", dpi=300)
+# plt.savefig("/gpfs1/data/compoundx/yumeng/project_code/pypsa-eur/check_process_folder/plots/europe_generation_load.png", dpi=300)
 # plt.show()

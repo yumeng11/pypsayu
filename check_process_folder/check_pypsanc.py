@@ -4,7 +4,7 @@ import pandas as pd
 from pathlib import Path
 
 # 设置路径
-base_path = Path("/home/mengyu/projects/pypsa-eur/results/networks/")
+base_path = Path("/gpfs1/data/compoundx/yumeng/project_code/pypsa-eur/results/networks/")
 network_file = base_path / "base_s_64_elec_.nc"
 
 # --- 方法 A: 使用 PyPSA 加载（推荐，查看电力系统逻辑） ---

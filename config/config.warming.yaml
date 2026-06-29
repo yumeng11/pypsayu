@@ -5,7 +5,7 @@ run:
   name: "warming_study" # 必须有值以激活 RDIR="{run}/"
   scenarios:
     enable: true      
-    file: /home/mengyu/projects/pypsa-eur/config/scenario.warming.yaml
+    file: /gpfs1/data/compoundx/yumeng/project_code/pypsa-eur/config/scenario.warming.yaml
 
 countries: ['AL', 'AT', 'BA', 'BE', 'BG', 'CH', 'CZ', 'DE', 'DK', 'EE', 'ES', 'FI', 'FR', 'GB', 'GR', 'HR', 'HU', 'IE', 'IT', 'LT', 'LU', 'LV', 'ME', 'MK', 'NL', 'NO', 'PL', 'PT', 'RO', 'RS', 'SE', 'SI', 'SK']
 

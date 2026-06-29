@@ -42,7 +42,7 @@ def compare_and_save_de_loads(path1, path2, output_dir, label1="Base", label2="W
 path_base = "/gpfs1/data/compoundx/yumeng/paper2/pypsa_output/networks/base_s_512_elec_.nc"
 path_warm = "/gpfs1/data/compoundx/yumeng/paper2/pypsa_output/warming2_s0_weather_year_2015/networks/base_s_512_elec_.nc"
 # 你要求的保存路径
-plot_folder = "/home/mengyu/projects/pypsa-eur/check_process_folder/plots"
+plot_folder = "/gpfs1/data/compoundx/yumeng/project_code/pypsa-eur/check_process_folder/plots"
 
 # 执行
 compare_and_save_de_loads(path_base, path_warm, plot_folder, "Base", "Warming_2015")

@@ -1,6 +1,6 @@
 #!/bin/bash
 SOURCE_ROOT="/gpfs1/data/compoundx/yumeng/paper2/atlite/cutouts"
-TARGET_DIR="/home/mengyu/projects/pypsa-eur/data/cutout/build/unknown"
+TARGET_DIR="/gpfs1/data/compoundx/yumeng/project_code/pypsa-eur/data/cutout/build/unknown"
 
 # 确保目标目录存在
 mkdir -p "$TARGET_DIR"

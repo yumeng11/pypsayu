@@ -10,7 +10,7 @@ run:
   # name: "" 
   scenarios:
     enable: true      
-    file: /home/mengyu/projects/pypsa-eur/config/scenario.yaml
+    file: /gpfs1/data/compoundx/yumeng/project_code/pypsa-eur/config/archive_single_year_runs/baseline_2015_scenario.yaml
 
 countries: ['AL', 'AT', 'BA', 'BE', 'BG', 'CH', 'CZ', 'DE', 'DK', 'EE', 'ES', 'FI', 'FR', 'GB', 'GR', 'HR', 'HU', 'IE', 'IT', 'LT', 'LU', 'LV', 'ME', 'MK', 'NL', 'NO', 'PL', 'PT', 'RO', 'RS', 'SE', 'SI', 'SK']
 snapshots:
@@ -18,20 +18,20 @@ snapshots:
   end: "2015-01-31 23:00" # 确保和你的 load 数据行数一致 (744h)
   inclusive: 'left'
 
-# load:
-#   prebuilt: false          
-  # custom_path: "resources/electricity_demand.csv" 
+load:
+  prebuilt: true          
+  custom_path: "resources/electricity_demand.csv" 
 
 
 electricity:
   voltages: [110., 132., 150., 220., 300., 330., 380., 400., 500., 750.] # 包含全电压
   renewable_carriers: [solar, onwind, offwind-ac, offwind-dc] # 无 hydro
   # conventional_carriers: [nuclear, OCGT, CCGT, coal]
-  # extendable_carriers: # 只做调度，不扩建
-  #   Generator: []
-  #   StorageUnit: []
-  #   Store: []
-  #   Link: []
+  extendable_carriers: # 只做调度，不扩建
+    Generator: []
+    StorageUnit: []
+    Store: []
+    Link: []
 
 
 sector:
@@ -46,9 +46,8 @@ sector:
   fossil_fuels: false
 
 scenario:
-  clusters:
-  - 512
-  planning_horizons: [2020]
+  clusters: [64]
+  planning_horizons: [2015]
   opts: [""]
   sector_opts: [""]
 
@@ -58,20 +57,20 @@ data:
 
 enable:
   retrieve: false
-  build_cutout: true
-  build_load: true
+  build_cutout: false
+  build_load: false
 
 atlite:
   nprocesses: 4
   show_progress: true
-  default_cutout: europe-era5-2015 
+  default_cutout: my-hybrid-2015 
   cutouts:
-    europe-era5-2015: 
+    my-hybrid-2015: 
       module: era5
-      x: [-12., 42.]
+      x: [-22., 45.]
       y: [33., 72.]
-      dx: 0.3
-      dy: 0.3
+      dx: 0.5
+      dy: 0.5
       # 仅下载一月份，确保不会因为文件过大再次触发磁盘配额报错
       time: ['2015-01', '2015-01']
       

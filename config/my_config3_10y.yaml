@@ -1,0 +1,57 @@
+# -----------------------------------------------------------------------------
+# Warming3, S0 demand, weather years 2015-2024.
+# This file is meant to be copied or linked into /gpfs1/data/compoundx/yumeng/project_code/pypsa-eur/config.
+# -----------------------------------------------------------------------------
+
+version: v2025.04.0
+tutorial: false
+
+run:
+  name: "warming3_s0_10y"
+  scenarios:
+    enable: true
+    file: /gpfs1/data/compoundx/yumeng/project_code/pypsa-eur/config/scenario3_10y.yaml
+
+countries: ['AL', 'AT', 'BA', 'BE', 'BG', 'CH', 'CZ', 'DE', 'DK', 'EE', 'ES', 'FI', 'FR', 'GB', 'GR', 'HR', 'HU', 'IE', 'IT', 'LT', 'LU', 'LV', 'ME', 'MK', 'NL', 'NO', 'PL', 'PT', 'RO', 'RS', 'SE', 'SI', 'SK']
+
+load:
+  prebuilt: true
+  # Kept for traceability; sbatch_runpypsa_10y.sh also links this file to
+  # /gpfs1/data/compoundx/yumeng/project_code/pypsa-eur/resources/electricity_demand.csv.
+  custom_path: "/gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/warming3/mme_results/load_S0_warming3_GBupdated.csv"
+
+electricity:
+  voltages: [110., 132., 150., 220., 300., 330., 380., 400., 500., 750.]
+  renewable_carriers: [solar, onwind, offwind-ac, offwind-dc]
+
+sector:
+  heating: false
+  transport: false
+  industry: false
+  gas_network: false
+  agriculture: false
+  biomass: false
+  shipping: false
+  aviation: false
+  fossil_fuels: false
+
+scenario:
+  clusters: [128]
+  planning_horizons: [2050]
+  opts: [""]
+  sector_opts: [""]
+
+data:
+  cutout:
+    source: build
+    folder: "/gpfs1/data/compoundx/yumeng/paper2/atlite/cutouts/warming3/mme_results/pypsa_links"
+
+enable:
+  retrieve: false
+  build_cutout: false
+  build_load: false
+  drop_leap_day: true
+
+atlite:
+  nprocesses: 16
+  show_progress: true
