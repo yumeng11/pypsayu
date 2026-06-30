@@ -1,0 +1,93 @@
+# -----------------------------------------------------------------------------
+# PyPSA-Eur v2026.02.0 overlay config:
+# 2024 historical installed capacities, ERA5 weather years 2015-2024,
+# dispatch-only solving.
+#
+# Use this as an overlay after config.default.yaml. Do not edit config.default.yaml.
+# -----------------------------------------------------------------------------
+
+version: v2026.02.0
+tutorial: false
+
+run:
+  name: "histcap2024_era5_dispatch_2015_2024"
+  scenarios:
+    enable: true
+    file: config/scenario_histcap2024_era5_dispatch_2015_2024.yaml
+
+countries: ['AL', 'AT', 'BA', 'BE', 'BG', 'CH', 'CZ', 'DE', 'DK', 'EE', 'ES', 'FI', 'FR', 'GB', 'GR', 'HR', 'HU', 'IE', 'IT', 'LT', 'LU', 'LV', 'ME', 'MK', 'NL', 'NO', 'PL', 'PT', 'RO', 'RS', 'SE', 'SI', 'SK']
+
+scenario:
+  clusters: [128]
+  planning_horizons: [2024]
+  opts: [""]
+  sector_opts: [""]
+
+snapshots:
+  start: "2024-01-01 00:00"
+  end: "2025-01-01 00:00"
+  inclusive: "left"
+
+data:
+  cutout:
+    source: build
+    folder: cutouts
+
+atlite:
+  nprocesses: 16
+  show_progress: true
+
+enable:
+  drop_leap_day: true
+
+electricity:
+  voltages: [110., 132., 150., 220., 300., 330., 380., 400., 500., 750.]
+  renewable_carriers: [solar, onwind, offwind-ac, offwind-dc]
+  extendable_carriers:
+    Generator: []
+    StorageUnit: []
+    Store: []
+    Link: []
+  powerplants_filter: "(DateOut > 2024 or DateOut != DateOut) and (DateIn < 2025 or DateIn != DateIn)"
+  estimate_renewable_capacities:
+    enable: true
+    from_powerplantmatching: true
+    from_irenastat: false
+    year: 2024
+    expansion_limit: false
+    technology_mapping:
+      Offshore: "offwind-ac"
+      Onshore: onwind
+      PV: solar
+  estimate_battery_capacities: false
+  transmission_limit: c1.0
+
+lines:
+  max_extension: 0
+
+links:
+  max_extension: 0
+
+costs:
+  year: 2024
+
+sector:
+  heating: false
+  transport: false
+  industry: false
+  gas_network: false
+  agriculture: false
+  biomass: false
+  shipping: false
+  aviation: false
+  fossil_fuels: false
+
+solving:
+  options:
+    skip_iterations: true
+    rolling_horizon: false
+  constraints:
+    CCL: false
+    EQ: false
+    BAU: false
+    SAFE: false
