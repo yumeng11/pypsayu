@@ -31,7 +31,7 @@ snakemake <target> \
   - runs the PyPSA-Eur native build + `solve_network` workflow on Slurm
   - links prebuilt ERA5 cutouts from
     `/gpfs1/data/compoundx/yumeng/paper2/atlite/cutouts/his_era5`
-    to `PYPSA_DIR/cutouts`
+    to `PYPSA_DIR/data/cutout/build/unknown`
 
 ## Flow
 

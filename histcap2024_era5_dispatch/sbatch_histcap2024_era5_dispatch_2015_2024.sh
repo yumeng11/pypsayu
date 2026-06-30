@@ -4,7 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=20
 #SBATCH --mem-per-cpu=20G
-#SBATCH --time=240:00:00
+#SBATCH --time=72:00:00
 #SBATCH -o /work/mengyu/job_log/%u/%x-%A.out
 #SBATCH -e /work/mengyu/job_log/%u/%x-%A.err
 #SBATCH --mail-type=END,FAIL
@@ -20,7 +20,7 @@ PYPSA_DIR="${PYPSA_DIR:-/gpfs1/data/compoundx/yumeng/project_code/pypsa-eur}"
 WORKFLOW_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 CONFIG_DIR="${PYPSA_DIR}/config"
 RESOURCES_DIR="${PYPSA_DIR}/resources"
-CUTOUTS_DIR="${PYPSA_DIR}/cutouts"
+CUTOUTS_DIR="${PYPSA_DIR}/data/cutout/build/unknown"
 RESULTS_ROOT="${RESULTS_ROOT:-/gpfs1/data/compoundx/yumeng/paper2/pypsa_output}"
 DEMAND_FILE="${DEMAND_FILE:-/gpfs1/data/compoundx/yumeng/paper2/pypsa_input_ready/historical_modelled_electricity_demand2015-2024.csv}"
 CUTOUT_SOURCE_DIR="${CUTOUT_SOURCE_DIR:-/gpfs1/data/compoundx/yumeng/paper2/atlite/cutouts/his_era5}"

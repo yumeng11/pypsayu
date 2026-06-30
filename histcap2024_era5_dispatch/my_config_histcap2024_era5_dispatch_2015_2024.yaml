@@ -31,7 +31,7 @@ snapshots:
 data:
   cutout:
     source: build
-    folder: cutouts
+    folder: data/cutout/build/unknown
 
 atlite:
   nprocesses: 16
